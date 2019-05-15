@@ -1,0 +1,8 @@
+amqp:
+   schema: amqps
+   host: messaging-j797oi3cu4-amq-online-infra.apps.bosch-ff49.openshiftworkshop.com
+   port: 443
+   
+   uri: ${amqp.schema}://${amqp.host}:${amqp.port}?transport.verifyHost=false&transport.trustStoreType=PEMCA&transport.trustAll=true
+   username: ctron
+   password: password
